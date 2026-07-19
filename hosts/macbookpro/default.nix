@@ -1,8 +1,10 @@
-{ pkgs, ... }:
-{
-  networking.hostName = "macbookpro";
-  networking.localHostName = "macbookpro";
-  networking.computerName = "Ian’s MacBook Pro";
+_: {
+  networking = {
+    computerName = "Ian’s MacBook Pro";
+    hostName = "macbookpro";
+    localHostName = "macbookpro";
+  };
+
   nixpkgs.hostPlatform = "aarch64-darwin";
 
   system.primaryUser = "ianpetersen";
