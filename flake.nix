@@ -46,6 +46,7 @@
         ./modules/darwin/fonts.nix
         ./modules/darwin/homebrew.nix
         ./modules/darwin/packages.nix
+        ./modules/darwin/xcode-clt.nix
       ];
     };
 
