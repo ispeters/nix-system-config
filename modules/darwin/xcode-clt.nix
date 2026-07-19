@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+_: {
   # idempotently install Xcode's Command Line Tools if `xcode-select -p` reports
   # no Xcode-related things installed. This is impure but there's no really good
   # way to do this with Nix only.

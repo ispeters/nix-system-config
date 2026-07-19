@@ -16,10 +16,9 @@
 
   outputs =
     {
-      self,
-      nixpkgs,
       nix-darwin,
       mac-app-util,
+      ...
     }:
     {
       darwinConfigurations.macbookpro = nix-darwin.lib.darwinSystem {
